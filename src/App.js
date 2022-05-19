@@ -18,9 +18,9 @@ export const StyledButton = styled.button`
   color: var(--secondary-text);
   width: 100px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  box-shadow: rgb(44 44 44 / 31%) 0px 6px 0px -2px;
+  -webkit-box-shadow: rgb(44 44 44 / 31%) 0px 6px 0px -2px;
+  -moz-box-shadow: rgb(44 44 44 / 31%) 0px 6px 0px -2px;
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -43,9 +43,9 @@ export const StyledRoundButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  box-shadow: rgb(44 44 44 / 31%) 0px 6px 0px -2px;
+  -webkit-box-shadow: rgb(44 44 44 / 31%) 0px 6px 0px -2px;
+  -moz-box-shadow: rgb(44 44 44 / 31%) 0px 6px 0px -2px;
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
